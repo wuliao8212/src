@@ -31,7 +31,7 @@ $(document).ready(function(){
   $("form").append("<div id='csrf' />");
   $("#csrf").load("<?php echo $path_fix?>csrf.php");
   $("body").append("<div id=footer class=center >GPLv2 licensed by <a href='https://github.com/zhblue/hustoj' >HUSTOJ</a> "+(new Date()).getFullYear()+" </div>");
-  $("body").append("<div class=center > <img src='http://hustoj.com/wx.jpg' width='96px'><img src='http://hustoj.com/alipay.png' width='96px'><br> 欢迎关注微信公众号onlinejudge</div>");
+  $("body").append("<div class=center > <img src='/home/judge/src/web/wx.jpg' width='96px'><br> 欢迎关注微信公众号 赵老师信息学&人工智能培训</div>");
 });
 
 $(".hint pre").each(function(){
