@@ -31,7 +31,7 @@ $(document).ready(function(){
   $("form").append("<div id='csrf' />");
   $("#csrf").load("<?php echo $path_fix?>csrf.php");
   $("body").append("<div id=footer class=center >GPLv2 licensed by <a href='http://123.56.23.228/' >QuCheng</a> "+(new Date()).getFullYear()+" </div>");
-  $("body").append("<div class=center > <img src='/home/judge/src/web/image/wx.jpg' width='96px'><br> 欢迎关注微信公众号 赵老师信息学&人工智能培训</div>");
+  $("body").append("<div class=center > <img src="/home/judge/src/web/image/wx.jpg" width='96px'><br> 欢迎关注微信公众号 赵老师信息学&人工智能培训</div>");
 });
 
 $(".hint pre").each(function(){
